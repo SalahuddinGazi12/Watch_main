@@ -1,0 +1,280 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.22f1 (b6c551784ba3) revision 11978065'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 8084 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+H:/Important/project/RealWatch
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52785
+Successfully changed project path to: H:/Important/project/RealWatch
+H:/Important/project/RealWatch
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9524] Host "[IP] 192.168.0.104 [Port] 0 [Flags] 2 [Guid] 585330204 [EditorId] 585330204 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CU5S0GF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [9524] Host "[IP] 192.168.0.104 [Port] 0 [Flags] 2 [Guid] 585330204 [EditorId] 585330204 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CU5S0GF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 192.68 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 14.77 ms.
+Initialize engine version: 2021.3.22f1 (b6c551784ba3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path H:/Important/project/RealWatch/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics (ID=0x152)
+    Vendor:   Intel
+    VRAM:     128 MB
+    Driver:   10.18.10.4252
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56272
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.031558 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+InvalidOperationException: Cannot start process because a file name has not been provided.
+  at System.Diagnostics.Process.Start () [0x00024] in <111da4cba18442e7addb95bcddc21c3b>:0 
+  at (wrapper remoting-invoke-with-check) System.Diagnostics.Process.Start()
+  at UnityEditor.Android.ProgramAsShellExecute.Start (System.Diagnostics.ProcessStartInfo psi) [0x0000e] in <d9aa0349546a4daeaefd100a44ff9f59>:0 
+  at UnityEditor.Android.Command.RunWithShellExecute (System.String command, System.String args, System.String workingdir, System.String errorMsg) [0x0003e] in <d9aa0349546a4daeaefd100a44ff9f59>:0 
+  at UnityEditor.Android.ADB.StartServer () [0x00013] in <d9aa0349546a4daeaefd100a44ff9f59>:0 
+  at UnityEditor.Android.ADB.Run (System.String[] command, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0000b] in <d9aa0349546a4daeaefd100a44ff9f59>:0 
+  at UnityEditor.Android.AndroidDeploymentTargetsExtension.GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext context, UnityEditor.ProgressHandler progressHandler) [0x00284] in <d9aa0349546a4daeaefd100a44ff9f59>:0 
+  at UnityEditor.Android.TargetScanWorker.ScanSync () [0x00039] in <d9aa0349546a4daeaefd100a44ff9f59>:0 
+  at UnityEditor.Android.TargetExtension.OnUsbDevicesChanged (UnityEditor.Hardware.UsbDevice[] usbDevices) [0x00081] in <d9aa0349546a4daeaefd100a44ff9f59>:0 
+  at UnityEditor.Android.TargetExtension.OnLoad () [0x0008d] in <d9aa0349546a4daeaefd100a44ff9f59>:0 
+  at UnityEditor.Modules.ModuleManager.InitializePlatformSupportModules () [0x0009d] in <964670f15c6b47f9b8f9340732720473>:0 
+
+Refreshing native plugins compatible for Editor in 58.37 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.543 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2545ms)
+		BeginReloadAssembly (208ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (2010ms)
+			LoadAssemblies (204ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (367ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (1478ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (912ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (59ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (294ms)
+				ProcessInitializeOnLoadMethodAttributes (210ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Registering precompiled user dll's ...
+Registered in 0.010090 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.71 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.220 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4223ms)
+		BeginReloadAssembly (546ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (3266ms)
+			LoadAssemblies (437ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (791ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (130ms)
+			SetupLoadedEditorAssemblies (2019ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (76ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (192ms)
+				ProcessInitializeOnLoadAttributes (1589ms)
+				ProcessInitializeOnLoadMethodAttributes (123ms)
+				AfterProcessingInitializeOnLoad (32ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.31 seconds
+Refreshing native plugins compatible for Editor in 1.30 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Unloading 1478 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (94.1 KB). Loaded Objects now: 2248.
+Memory consumption went from 77.3 MB to 77.2 MB.
+Total: 8.082200 ms (FindLiveObjects: 0.447500 ms CreateObjectMapping: 0.554600 ms MarkObjects: 6.756300 ms  DeleteObjects: 0.317200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 9198.641394 seconds.
+  path: Assets/Scenes/Watch.unity
+  artifactKey: Guid(253a1134e512e5b43a3d557e04458043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Watch.unity using Guid(253a1134e512e5b43a3d557e04458043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6898986e71f9f92e5407853c4d739f8c') in 0.036243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 75.780596 seconds.
+  path: Assets/Scenes/Watch
+  artifactKey: Guid(5c2914fb43a6ab542a2b5d327fbaf8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Watch using Guid(5c2914fb43a6ab542a2b5d327fbaf8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d27e37ecb7f7b681285d57cd6189c13') in 0.031237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.660547 seconds.
+  path: Assets/Scenes/Watch/LightingData.asset
+  artifactKey: Guid(c8d2357761634f14493de9072a79ea12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Watch/LightingData.asset using Guid(c8d2357761634f14493de9072a79ea12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd38d00bbe1414a6ec69963b4e2cfb4ee') in 0.199661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Scenes/Watch/ReflectionProbe-0.exr
+  artifactKey: Guid(8fa76f8a73c1fbb4e96dda90c2691117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Watch/ReflectionProbe-0.exr using Guid(8fa76f8a73c1fbb4e96dda90c2691117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca70ceaeb4d8015fb028cba356820f3c') in 0.422491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.894510 seconds.
+  path: Assets/Hand_obj/Hand.prefab
+  artifactKey: Guid(abf00158588d94975a17b43ae56c071a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hand_obj/Hand.prefab using Guid(abf00158588d94975a17b43ae56c071a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67902cb8b39cc218bc7d99b711bba25e') in 1.119740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.851704 seconds.
+  path: Assets/Resources/VuforiaConfiguration.asset
+  artifactKey: Guid(f1c3746753ce25045a88ffeb4183ac16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaConfiguration.asset using Guid(f1c3746753ce25045a88ffeb4183ac16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '210a0fc974fb5c0188be809df66e3ef6') in 0.072886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.423959 seconds.
+  path: Assets/StreamingAssets/Vuforia
+  artifactKey: Guid(2a415b7200662c748ab8d6c5a056ba91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/Vuforia using Guid(2a415b7200662c748ab8d6c5a056ba91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '213ef12b753168d2a099abf87cda86e2') in 0.192425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.298907 seconds.
+  path: Assets/StreamingAssets/Vuforia/watchdata.dat
+  artifactKey: Guid(9a3c7a58e513421c9619afd78ce55fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/Vuforia/watchdata.dat using Guid(9a3c7a58e513421c9619afd78ce55fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d269175c53c50acecf679a49d6a1391') in 0.046265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.314681 seconds.
+  path: Assets/StreamingAssets/Vuforia/ldata.xml
+  artifactKey: Guid(da16123076b94b21aa1e00f989372388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/Vuforia/ldata.xml using Guid(da16123076b94b21aa1e00f989372388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe53af931a1cf7571646f1a9591582b7') in 0.059673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.797275 seconds.
+  path: Assets/StreamingAssets/Vuforia/watchdata.xml
+  artifactKey: Guid(5612585aec914d719a07f91ed42f880e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/Vuforia/watchdata.xml using Guid(5612585aec914d719a07f91ed42f880e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee9815cf163fe474f8d0480644a2e5d4') in 0.003340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 132.773399 seconds.
+  path: Assets/SamplesResources/InstantImageTarget/Astronaut.jpg
+  artifactKey: Guid(f0d9bcb0daf31468385cd551f205df5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamplesResources/InstantImageTarget/Astronaut.jpg using Guid(f0d9bcb0daf31468385cd551f205df5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccc75033cec7a35b56072c068a0b1c93') in 1.439787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.720328 seconds.
+  path: Assets/Watch Models/Files
+  artifactKey: Guid(b18c0b345b6834e6e9047d597fe42590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Watch Models/Files using Guid(b18c0b345b6834e6e9047d597fe42590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b992a4b0edc55354a4a9b6e073d0ed3a') in 0.022156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.091190 seconds.
+  path: Assets/Watch Models/Files/dummy material.mat
+  artifactKey: Guid(8cdd1f65502f64671a8bf471791ee1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Watch Models/Files/dummy material.mat using Guid(8cdd1f65502f64671a8bf471791ee1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89610678989c32caee4e80b6bcc4d187') in 0.456045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Watch Models/Files/Watch 3.FBX
+  artifactKey: Guid(8a63b924a1a4e432cb9030428d7a5972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Watch Models/Files/Watch 3.FBX using Guid(8a63b924a1a4e432cb9030428d7a5972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bfbd70973288a813ceab69a91326e04') in 3.661400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Watch Models/Files/patrimony_silver_brown_closed_obj.obj
+  artifactKey: Guid(53c32d9c9aec4436da133468e1b8e9d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Watch Models/Files/patrimony_silver_brown_closed_obj.obj using Guid(53c32d9c9aec4436da133468e1b8e9d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d600874b581dbba19adf81a786a5710') in 1.761440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Watch Models/Watch 1/Watch 1.prefab
+  artifactKey: Guid(76a72e7930b8f4df7b6d70a0d4f4cd3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Watch Models/Watch 1/Watch 1.prefab using Guid(76a72e7930b8f4df7b6d70a0d4f4cd3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c0694b7fd82e5bd27f8b5483da7c623') in 0.095298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Watch Models/Watch 1/dial.png
+  artifactKey: Guid(b043cf5f94bcb4b38b761c6d0b92a95d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Watch Models/Watch 1/dial.png using Guid(b043cf5f94bcb4b38b761c6d0b92a95d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcac4cf3395bbffd1d160f4f75135582') in 0.148947 seconds 
